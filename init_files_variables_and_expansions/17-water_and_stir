@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(( ${WATER//[!${WATER}]/0} + ${STIR//[!${STIR}]/0} ))" | tr '0-9' "$BESTCHOL"
